@@ -4,6 +4,7 @@ import HomePage from "./HomePage.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Catalogue from "./Pages/Catalogue.jsx";
+import ItemDetail from "./Pages/ItemDetail.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/categories",
     element: <Catalogue />,
+  },
+  {
+    path: "/categories/item",
+    element: <ItemDetail />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
