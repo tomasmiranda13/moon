@@ -1,0 +1,9 @@
+.button-price {
+  width: 200px;
+  height: 50px;
+  border: solid 1px rgb(199, 193, 193);
+  background-color: #d8c5ac;
+  font-size: 12pt;
+  font-family: montserrat;
+  cursor: pointer;
+}

@@ -3,6 +3,8 @@ import "../styles/catalogue.css";
 import Nav from "../components/Nav";
 import Item from "../components/Item";
 import Footer from "../components/Footer";
+import ButtonSize from "../components/ButtonSize";
+import ButtonPrice from "../components/ButtonPrice.jsx";
 
 function Catalogue() {
   return (
@@ -12,6 +14,8 @@ function Catalogue() {
         <h2>NOMBRE</h2>
       </div>
       <Item />
+      <ButtonSize />
+      <ButtonPrice />
       <Footer />
     </>
   );
