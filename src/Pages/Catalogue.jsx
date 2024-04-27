@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import "../styles/catalogue.css";
 import Nav from "../components/Nav";
 import Item from "../components/Item";
@@ -14,8 +15,7 @@ function Catalogue() {
         <h2>NOMBRE</h2>
       </div>
       <Item />
-      <ButtonSize />
-      <ButtonPrice />
+      <Outlet />
       <Footer />
     </>
   );

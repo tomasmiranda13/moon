@@ -1,5 +1,5 @@
 import React from "react";
-import "../../public/polo_shirt.jpg";
+import "/polo_shirt.jpg";
 import "../styles/item.css";
 
 function Item() {

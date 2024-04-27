@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonSize from "../components/ButtonSize";
 import ButtonPrice from "../components/ButtonPrice";
-import "../../public/polo_shirt.jpg";
+import "/polo_shirt.jpg";
 
 function ItemDetail() {
   return (

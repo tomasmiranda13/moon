@@ -1,10 +1,11 @@
 import "../styles/nav.css";
+import "/logo_moon.png";
 
 function Nav() {
   return (
     <nav>
       <div>
-        <img className="logo" src="public/logo_moon.png" alt="" />
+        <img className="logo" src="logo_moon.png" alt="" />
       </div>
       <ul className="list-products">
         <li>REMERAS</li>

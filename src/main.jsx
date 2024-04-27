@@ -14,10 +14,12 @@ const router = createBrowserRouter([
   {
     path: "/categories",
     element: <Catalogue />,
-  },
-  {
-    path: "/categories/item",
-    element: <ItemDetail />,
+    children: [
+      {
+        path: "/categories/item/",
+        element: <ItemDetail />,
+      },
+    ],
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

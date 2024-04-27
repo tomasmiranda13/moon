@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../../../public/prueba.png";
+import "/prueba.png";
 import "../../styles/carousel.css";
 
 const Carousel = () => {
