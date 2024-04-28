@@ -1,0 +1,9 @@
+.container-title-category {
+  background-color: #d8c5ac;
+  display: flex;
+  justify-content: center;
+}
+.container-list-items {
+  display: flex;
+  padding: 0 100px;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import HomePage from "./HomePage.jsx";
+import HomePage from "./Pages/HomePage.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Catalogue from "./Pages/Catalogue.jsx";
-import ItemDetail from "./Pages/ItemDetail.jsx";
+import Store from "./Pages/Store.jsx";
+import CatalogueItems from "./components/store/CatalogueItems.jsx";
 
 const router = createBrowserRouter([
   {
@@ -12,12 +12,12 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/categories",
-    element: <Catalogue />,
+    path: "/store",
+    element: <Store />,
     children: [
       {
-        path: "/categories/item/",
-        element: <ItemDetail />,
+        path: "/store/category/",
+        element: <CatalogueItems />,
       },
     ],
   },

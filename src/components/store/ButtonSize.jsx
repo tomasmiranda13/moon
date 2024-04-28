@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/buttonSize.css";
+import "../../styles/buttonSize.css";
 
 function ButtonSize() {
   return (

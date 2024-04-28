@@ -1,7 +1,10 @@
+html {
+  min-height: 100vh;
+}
 body {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
-  min-height: 100vh;
+  min-height: 100%;
 }
 ul {
   list-style: none;

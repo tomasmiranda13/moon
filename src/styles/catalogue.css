@@ -1,5 +1,4 @@
-.container-title-category {
-  background-color: #d8c5ac;
+.catalogue-container {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }

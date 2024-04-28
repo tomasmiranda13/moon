@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/buttonPrice.css";
+import "../../styles/buttonPrice.css";
 
 function ButtonPrice() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "/polo_shirt.jpg";
-import "../styles/item.css";
+import "../../styles/item.css";
 
 function Item() {
   return (
