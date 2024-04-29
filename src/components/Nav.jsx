@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/nav.css";
 import "/logo_moon.png";
 
@@ -8,7 +10,10 @@ function Nav() {
         <img className="logo" src="logo_moon.png" alt="" />
       </div>
       <ul className="list-products">
-        <li>REMERAS</li>
+        <Link to={"/store/category/"}>
+          {" "}
+          <li>REMERAS</li>
+        </Link>
         <li>CAMPERAS</li>
         <li>BUZOS Y CANGUROS</li>
         <li>PANTALONES</li>
