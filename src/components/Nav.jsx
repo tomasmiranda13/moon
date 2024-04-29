@@ -11,7 +11,6 @@ function Nav() {
       </div>
       <ul className="list-products">
         <Link to={"/store/category/"}>
-          {" "}
           <li>REMERAS</li>
         </Link>
         <li>CAMPERAS</li>
