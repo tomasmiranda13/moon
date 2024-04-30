@@ -6,7 +6,7 @@ function CatalogueItems() {
   return (
     <div>
       <div className="catalogue-container">
-        <Item />
+        <Item img={"polo_shirt.jpg"} />
         <Item />
         <Item />
         <Item />
